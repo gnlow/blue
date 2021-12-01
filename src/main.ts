@@ -1,6 +1,6 @@
 import { rgb24, bgRgb24, bold, italic } from "https://deno.land/std@0.116.0/fmt/colors.ts"
 
-interface Rgb {r: number, g: number, b: number}
+export interface Rgb {r: number, g: number, b: number}
 
 export const rgb = (r: number, g: number, b: number) => ({r, g, b})
 
